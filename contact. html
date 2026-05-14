@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>التواصل | Momen Yassen</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial;
+    background:linear-gradient(135deg,#0b1020,#111827,#020617);
+    color:white;
+    text-align:center;
+}
+
+/* NAV */
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:#0f172a;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:12px;
+    z-index:9999;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-size:14px;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+/* CONTENT */
+.container{
+    padding-top:120px;
+}
+
+/* BOX */
+.box{
+    background:rgba(255,255,255,0.05);
+    padding:20px;
+    margin:20px auto;
+    max-width:800px;
+    border-radius:12px;
+    line-height:2;
+}
+
+/* LINKS */
+a{
+    color:#38bdf8;
+    text-decoration:none;
+    display:block;
+    margin:10px 0;
+}
+
+a:hover{
+    color:white;
+}
+
+h1{
+    color:#38bdf8;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 18px;
+    background:#38bdf8;
+    color:black;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="index.html">الرئيسية</a>
+  <a href="work.html">الأعمال</a>
+  <a href="services.html">الخدمات</a>
+  <a href="contact.html">التواصل</a>
+</nav>
+
+<!-- CONTENT -->
+<div class="container">
+
+<h1>التواصل</h1>
+
+<div class="box">
+
+📞 الأرقام:<br>
+01142419845<br>
+01012865842<br><br>
+
+📘 فيسبوك:<br>
+<a href="https://www.facebook.com/share/1B1yjz84GL/" target="_blank">الصفحة القديمة</a>
+
+<a href="https://www.facebook.com/share/1aTqg5Z4pF/" target="_blank">صفحة الشغل الجديدة</a>
+
+</div>
+
+<a class="btn" href="https://www.facebook.com/share/1aTqg5Z4pF/" target="_blank">
+راسلنا على فيسبوك
+</a>
+
+</div>
+
+</body>
+</html>
